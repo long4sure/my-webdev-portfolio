@@ -544,5 +544,14 @@
 </footer>
 
 <script src="script.js"></script>
+<script>
+  (function() {
+    const url = new URL(window.location.href);
+    if (url.searchParams.has('fbclid')) {
+      url.searchParams.delete('fbclid');
+      window.history.replaceState(null, '', url.pathname + url.search + url.hash);
+    }
+  })();
+</script>
 </body>
 </html>
