@@ -12,16 +12,6 @@ jerome-portfolio/
 ├── jeromemisa.jpg  ← Profile photo
 └── README.md
 ```
-
-## 🚀 Deploy to GitHub Pages
-
-1. Create a new GitHub repository (e.g. `jerome-portfolio`)
-2. Upload all files — **keep them in the same folder**
-3. Go to **Settings → Pages**
-4. Under **Source**, select `main` branch → `/ (root)` → **Save**
-5. Your site will go live at:
-   `https://yourusername.github.io/jerome-portfolio/`
-
 ## ✨ Features
 
 - SVG monogram logo (JM) in the navbar
